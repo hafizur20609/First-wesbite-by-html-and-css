@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Poppins", serif; */
+*{
+    padding: 0;
+    margin: 0;        
+
+    
+}
+/* body style */
+body{
+    color: white;
+    font-size: 25px;
+    font-family: "Poppins", serif;
+}
+/* section part 1 start styling  */
+#section_part1{
+    width: 1800px;
+    height:900px;
+    background: url(images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section_part1 .text_area{
+     text-align: center;         /*text-area */
+    width: 850px;
+    line-height: 25px;
+   
+}
+#section_part1 .text_area .p_one{
+    margin-bottom: 20px;         /*p-one */
+    
+}
+#section_part1 .text_area h2{
+    font-size: 40px;
+    line-height: 50px;      /* h2*/
+    margin-bottom: 20px;
+
+}
+#section_part1 .text_area .p_two{
+    font-size: 20px;      
+    line-height:30px;     /*p-two*/
+    margin-bottom: 20px;
+
+}
+#section_part1 .text_area .btn_part1 button{
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(82, 195, 3);
+    color: white;
+    border: none;
+
+}
