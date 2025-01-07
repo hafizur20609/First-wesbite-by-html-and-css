@@ -17,11 +17,12 @@ body{
 }
 /* section part 1 start styling  */
 #section_part1{
-    width: 1800px;
-    height:900px;
+    width: 1500px;
+    height:700px;
     background: url(images/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 30px auto;
     display: flex;
     justify-content: center;
