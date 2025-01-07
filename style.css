@@ -17,8 +17,8 @@ body{
 }
 /* section part 1 start styling  */
 #section_part1{
-    width: 1500px;
-    height:700px;
+    width: 1400px;
+    height:600px;
     background: url(images/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
