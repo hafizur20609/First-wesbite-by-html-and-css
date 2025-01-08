@@ -11,13 +11,14 @@
 }
 /* body style */
 body{
-    color: white;
     font-size: 25px;
     font-family: "Poppins", serif;
 }
 /* section part 1 start styling  */
 #section_part1{
     width: 1400px;
+    max-width: 1400px;
+    min-width: 1100px;
     height:600px;
     background: url(images/hero-bg.png);
     background-position: center;
@@ -27,6 +28,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 #section_part1 .text_area{
      text-align: center;         /*text-area */
@@ -59,3 +61,73 @@ body{
     border: none;
 
 }
+
+/* section part -2 */
+
+#section_part2{
+    width: 1400px;
+    margin: 100px auto;
+}
+#section_part2 .text_area2{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+#section_part2 .text_area2 p{
+    font-size: 20px;
+    
+}
+#section_part2 .text_area2 h2{
+    font-size: 30px;
+    
+}
+
+
+#section_part2 #card_box{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content:space-between;
+    gap: 20px;
+}
+
+#section_part2 #card_box .child_box{
+
+    width:300px;
+    text-align: center;
+}
+#section_part2 #card_box .child_box .btn2 button{
+         background-color: aquamarine;
+         padding: 10px 25px ;
+         margin-top:10px;
+         font-size:18px;
+         text-transform: capitalize;
+         border-radius:5px;
+         border: none;
+}
+#section_part2 #card_box .child_box h3{
+    margin-top: 10px;
+    text-transform: capitalize;
+
+}
+#section_part2 #card_box .child_box p{
+    margin-top: 10px;
+    color: rgb(77, 71, 71);
+}
+
+#section_part2 .btn_part3{
+    text-align: center;
+}
+#section_part2 .btn_part3 button{
+    padding: 12px 30px ;
+    background-color: aqua;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+
+
+
+
